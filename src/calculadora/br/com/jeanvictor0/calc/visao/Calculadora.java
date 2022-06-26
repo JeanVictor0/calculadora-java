@@ -9,7 +9,7 @@ import javax.swing.JFrame;
 public class Calculadora extends JFrame {
 	public Calculadora() {
 		organizarLayout();
-		
+//		setUndecorated(true);
 		setVisible(true);
 		//setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
